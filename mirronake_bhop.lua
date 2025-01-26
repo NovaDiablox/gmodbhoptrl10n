@@ -16,6 +16,11 @@ local function getLocalizedMessage(key)
             enabled = "Баннихоп включён.",
             disabled = "Баннихоп отключён.",
             info = "Вы можете использовать команду 'bhop 0/1', чтобы переключить баннихоп.",
+ 	},            
+        tr = {
+            enabled = "Bunnyhop etkinleştirildi.",
+            disabled = "Bunnyhop devre dışı.",
+            info = "'bhop 0/1' komutunu kullanarak bunnyhop'u açıp kapatabilirsiniz.",
         }
     }
     return messages[lang] and messages[lang][key] or messages["en"][key]
